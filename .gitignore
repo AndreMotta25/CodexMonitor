@@ -1,0 +1,24 @@
+.DS_Store
+.build/
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+*.mobileprovision
+*.p12
+*.ipa
+Local.xcconfig
+
+# Local credentials and diagnostics
+.env
+.env.*
+!.env.example
+.swiftpm/
+*.log
+*.pem
+*.key
+*.p8
+auth.json
+tokens.json
+credentials.json
+quota-snapshot.json
